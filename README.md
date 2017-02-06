@@ -50,3 +50,11 @@ Installation:
         exec "$@"
       fi
 
+  to configure the VU5 HDMI screen commant all lines in /boot/config.txt and in the end of the file add:
+      
+      hdmi_cvt=800 480 54
+      hdmi_group=0
+      hdmi_mode=87
+      hdmi_drive=1
+      
+      
